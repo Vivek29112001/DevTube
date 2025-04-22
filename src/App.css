@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* Add this to your global CSS file */
+.scroll-container {
+    -webkit-overflow-scrolling: touch; /* Smooth on iOS */
+    scroll-behavior: smooth;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+ 
